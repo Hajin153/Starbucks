@@ -1,1 +1,87 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  background-color: #f6f5ef;
+}
+
+header .logo-icon-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px;
+}
+
+header .logo-icon-flexbox .logo a img {
+  width: 44px;
+  height: 44px;
+}
+
+header .logo-icon-flexbox .flexbox-icon {
+  margin-left: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo-icon-flexbox .flexbox-icon .login {
+  padding-right: 31px;
+}
+
+header .logo-icon-flexbox .flexbox-icon .login img {
+  width: 30px;
+}
+
+header .logo-icon-flexbox .flexbox-icon .loca {
+  padding-right: 31px;
+}
+
+header .logo-icon-flexbox .flexbox-icon .loca img {
+  width: 25px;
+}
+
+header .logo-icon-flexbox .flexbox-icon .mobile-menu span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  border-radius: 18%;
+  background-color: #55443a;
+}
+
+header .logo-icon-flexbox .flexbox-icon .mobile-menu span:nth-child(2) {
+  margin: 7px 0;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=reset.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+/*# sourceMappingURL=reset.css.map */

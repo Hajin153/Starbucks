@@ -1,0 +1,56 @@
+@import "./style.scss";
+@import "./reset.scss";
+@import "./mixin.scss";
+
+body {
+    width: 100%;
+}
+
+//===== header =====//
+header {
+    display: flex;
+    height: 70px;
+    background-color: $nav-bg;
+    .logo-icon-flexbox {
+        display: flex;
+        padding: 15px;
+        .logo {
+            a {
+                img {
+                    width: 44px;
+                    height: 44px;
+                }
+            }
+        }
+        .flexbox-icon {
+            margin-left: 260px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .login {
+                padding-right: 31px;
+                img {
+                    width: 30px;
+                }
+            }
+            .loca {
+                padding-right: 31px;
+                img {
+                    width: 25px;
+                }
+            }
+            .mobile-menu {
+                span {
+                    display: block;
+                    width: 30px;
+                    height: 4px;
+                    border-radius: 18%;
+                    background-color: $hamburger-icon;
+                    &:nth-child(2) {
+                        margin: 7px 0;
+                    }
+                }
+            }
+        }
+    }
+}

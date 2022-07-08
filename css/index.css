@@ -26,10 +26,14 @@ body {
 }
 
 header {
+  position: fixed;
+  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 70px;
+  width: 100%;
+  margin-top: -70px;
   background-color: #f6f5ef;
 }
 
@@ -83,5 +87,480 @@ header .logo-icon-flexbox .flexbox-icon .mobile-menu span {
 
 header .logo-icon-flexbox .flexbox-icon .mobile-menu span:nth-child(2) {
   margin: 7px 0;
+}
+
+header nav .gnb {
+  display: none;
+}
+
+main .fixed-card {
+  position: fixed;
+  z-index: 100;
+  top: 100px;
+  right: 10px;
+}
+
+main .fixed-card a .pc {
+  display: none;
+}
+
+main .fixed-card a .m {
+  width: 125px;
+  height: 90px;
+}
+
+main .find-your-taste {
+  position: relative;
+  background: url(../image/m_Summer1_ph2_main_bg.jpg) no-repeat;
+  background-size: 100%;
+  margin-top: 70px;
+}
+
+main .find-your-taste .main-title-button .pc-main-title img {
+  display: none;
+}
+
+main .find-your-taste .main-title-button .m-main-title {
+  padding: 50px 35px;
+}
+
+main .find-your-taste .main-title-button .m-main-title img {
+  width: 240px;
+}
+
+main .find-your-taste .main-title-button .button-pc a {
+  display: none;
+}
+
+main .find-your-taste .drink-pc-m .drink-pc {
+  display: none;
+}
+
+main .find-your-taste .drink-pc-m .drink-m {
+  text-align: center;
+  margin-top: 55px;
+}
+
+main .find-your-taste .drink-pc-m .drink-m img {
+  width: 425px;
+}
+
+main .find-your-taste .drink-pc-m .drink-m img:nth-child(2) {
+  margin-top: -25px;
+  width: 370px;
+}
+
+main .find-your-taste .drink-pc-m .drink-m img:last-child {
+  margin-top: -135px;
+}
+
+main .find-your-taste .drink-pc-m .button-m {
+  text-align: center;
+}
+
+main .find-your-taste .drink-pc-m .button-m a {
+  margin: 70px 0;
+  display: inline-block;
+  border: 2px solid #1c3831;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #1c3831;
+  font-size: 13px;
+}
+
+main .find-your-taste .drink-pc-m .button-m a:hover {
+  background-color: #1c3831;
+  color: white;
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox {
+  background-color: black;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dt {
+  margin-right: 30px;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dt img {
+  width: 30px;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dt img:last-child {
+  display: none;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dd ul li a {
+  font-size: 20px;
+  color: white;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dd ul li:nth-child(2) {
+  display: none;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dd ul li:nth-child(3) {
+  display: none;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dd ul li:nth-child(4) {
+  display: none;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .notice-flexbox dd ul li:nth-child(5) {
+  display: none;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .plus-btn {
+  margin-left: 90px;
+}
+
+main .notice-promotion .grid .notice-plus-flexbox .plus-btn img {
+  width: 40px;
+}
+
+main .notice-promotion .grid .promotion-flexbox {
+  background-color: #f6f5ef;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .notice-promotion .grid .promotion-flexbox p {
+  margin-right: 20px;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+main .notice-promotion .grid .promotion-flexbox a {
+  margin-left: 10px;
+}
+
+main .rewards-wrap {
+  background-color: #1e3932;
+  height: 745px;
+  text-align: center;
+}
+
+main .rewards-wrap .info-gift {
+  color: white;
+}
+
+main .rewards-wrap .info-gift img {
+  margin-top: 40px;
+  width: 200px;
+}
+
+main .rewards-wrap .info-gift .info .info-txt {
+  margin-top: 25px;
+}
+
+main .rewards-wrap .info-gift .info .info-txt h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+main .rewards-wrap .info-gift .info .info-txt h2 .pc-br {
+  display: none;
+}
+
+main .rewards-wrap .info-gift .info .info-txt p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+main .rewards-wrap .info-gift .info .info-txt p .pc-br {
+  display: none;
+}
+
+main .rewards-wrap .info-gift .info .login-signin-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  margin: 10px;
+}
+
+main .rewards-wrap .info-gift .info .login-signin-btn .signin {
+  color: white;
+  margin-right: 4px;
+  padding: 8px 55px;
+  border-radius: 3px;
+  border: 2px solid #00704a;
+  background-color: #00704a;
+}
+
+main .rewards-wrap .info-gift .info .login-signin-btn .signin:hover {
+  text-decoration: underline;
+}
+
+main .rewards-wrap .info-gift .info .login-signin-btn .login {
+  color: white;
+  margin-left: 4px;
+  padding: 8px 60px;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+main .rewards-wrap .info-gift .info .login-signin-btn .login:hover {
+  text-decoration: underline;
+}
+
+main .rewards-wrap .info-gift hr {
+  width: 450px;
+  margin: 25px auto;
+  border: 1px solid #4b615b;
+}
+
+main .rewards-wrap .info-gift .gift .gift-txt p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+main .rewards-wrap .info-gift .gift .gift-txt p .pc-br {
+  display: none;
+}
+
+main .rewards-wrap .info-gift .gift .gift-btn {
+  display: inline-block;
+  margin: 29px 0;
+}
+
+main .rewards-wrap .info-gift .gift .gift-btn a {
+  padding: 8px 100px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+main .rewards-wrap .info-gift .gift .gift-btn a:hover {
+  text-decoration: underline;
+}
+
+main .peru-wrap {
+  background: url(../image/m_Summer1_ph2_bean_bg.jpg) no-repeat;
+  background-size: 100%;
+}
+
+main .peru-wrap .peru-image-txt {
+  text-align: center;
+}
+
+main .peru-wrap .peru-image-txt .peru-image .pc-peru {
+  display: none;
+}
+
+main .peru-wrap .peru-image-txt .peru-image .m-peru {
+  width: 270px;
+  margin: 120px 0 40px 120px;
+}
+
+main .peru-wrap .peru-image-txt .peru-txt .txt-pc {
+  display: none;
+}
+
+main .peru-wrap .peru-image-txt .peru-txt .txt-m {
+  width: 340px;
+}
+
+main .peru-wrap .peru-image-txt .button {
+  display: inline-block;
+  margin: 68px 0;
+  font-size: 14px;
+}
+
+main .peru-wrap .peru-image-txt .button a {
+  padding: 8px 20px;
+  color: #00704a;
+  border-radius: 3px;
+  border: 2px solid #00704a;
+}
+
+main .peru-wrap .peru-image-txt .button a:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: #00704a;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .indonesia-wrap {
+  position: relative;
+}
+
+main .indonesia-wrap .indonesia-m img {
+  width: 100%;
+}
+
+main .indonesia-wrap .indonesia-m .button {
+  position: absolute;
+  bottom: 90px;
+  left: 39%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+main .indonesia-wrap .indonesia-m .button a {
+  padding: 8px 20px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+main .indonesia-wrap .indonesia-m .button a:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .indonesia-wrap .indonesia-pc {
+  display: none;
+}
+
+main .pick-wrap {
+  background: url(../image/m_pick_bg.png) no-repeat;
+  background-size: 100%;
+  margin-top: -4px;
+  text-align: center;
+}
+
+main .pick-wrap .pick-image {
+  padding-top: 130px;
+}
+
+main .pick-wrap .pick-image img {
+  width: 100%;
+}
+
+main .pick-wrap .pick-txt {
+  color: white;
+}
+
+main .pick-wrap .pick-txt h1 {
+  display: none;
+}
+
+main .pick-wrap .pick-txt h2 {
+  padding-top: 150px;
+  font-size: 35px;
+}
+
+main .pick-wrap .pick-txt p {
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+main .pick-wrap .pick-txt .button {
+  margin-top: 50px;
+  margin-bottom: 105px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+main .pick-wrap .pick-txt .button a {
+  padding: 8px 20px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+main .pick-wrap .pick-txt .button a:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .reserve-wrap {
+  position: relative;
+}
+
+main .reserve-wrap .reserve-pc {
+  display: none;
+}
+
+main .reserve-wrap .reserve-m {
+  text-align: center;
+}
+
+main .reserve-wrap .reserve-m img {
+  width: 100%;
+}
+
+main .reserve-wrap .reserve-m .button-m {
+  position: absolute;
+  bottom: 35px;
+  right: 38%;
+  display: inline-block;
+  font-size: 14px;
+}
+
+main .reserve-wrap .reserve-m .button-m a {
+  padding: 8px 20px;
+  color: black;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+main .reserve-wrap .reserve-m .button-m a:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+main .store-wrap {
+  background-color: #e7e7e7;
+  position: relative;
+}
+
+main .store-wrap .store-image .store {
+  width: 300px;
+}
+
+main .store-wrap .store-image .dt {
+  width: 200px;
+  position: absolute;
+  top: 150px;
+  right: 80px;
+}
+
+main .store-wrap .store-txt {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */

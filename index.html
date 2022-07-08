@@ -308,24 +308,20 @@
     <!--==========  MAIN ==========-->
     <main>
         <div class="fixed-card">
-            <div class="find-your-taste-card">
-                <a href="#">
-                    <img src="./image/find_your_taste_pc.png" alt="Find Yout Taste-pc">
-                    <img src="./image/find_your_taste_m.png" alt="Find Yout Taste-m">
-                </a>
-            </div>
-            <div class="hyundai-card">
-                <a href="#">
-                    <img src="./image/hyundai_card_pc.png" alt="스타벅스 현대카드">
-                    <img src="./image/hyundai_card_m.png" alt="스타벅스 현대카드">
-                </a>
-            </div>
+            <a href="#">
+                <img src="./image/hyundai_card_pc.png" class="pc" alt="스타벅스 현대카드">
+                <img src="./image/hyundai_card_m.png" class="m" alt="스타벅스 현대카드">
+            </a>
         </div>
 
         <section class="find-your-taste">
-            <div main_title_button>
-                <a href="#"><img src="./image/2022_Summer1_ph2_main_title.png" alt="pc_main title"></a>
-                <a href="#"><img src="./image/m_2022_Summer1_ph2_main_title.png" alt="m_main title"></a>
+            <div class="main-title-button">
+                <div class="pc-main-title">
+                    <img src="./image/2022_Summer1_ph2_main_title.png"  alt="pc main title">
+                </div>
+                <div class="m-main-title">
+                    <img src="./image/m_2022_Summer1_ph2_main_title.png"  alt="m main title">
+                </div>
                 <div class="button-pc">
                     <a href="#">자세히 보기</a>
                 </div>
@@ -342,11 +338,10 @@
                     <img src="./image/m_2022_Summer1_ph2_main_purplesourblended.png" alt="drink2 m">
                     <img src="./image/m_2022_Summer1_ph2_main_coffeedrawingmalcha.png" alt="drink3 m">
                 </div>
+                <div class="button-m">
+                    <a href="#">자세히 보기</a>
+                </div>
             </div> <!-- drink-pc-m -->
-
-            <div class="button-m">
-                <a href="#">자세히 보기</a>
-            </div>
         </section> <!-- find-your-taste -->
 
         <section class="notice-promotion">
@@ -354,19 +349,20 @@
                 <div class="notice-plus-flexbox">
                     <dl class="notice-flexbox">
                         <dt>
-                            <img src="./image/notice_ttl.png" alt="공지사항">
+                            <img src="./image/notice_icon.png" alt="notice icon" class="notice-icon">
+                            <img src="./image/notice_ttl.png" alt="공지사항" class="notice-ttl">
                         </dt>
                         <dd>
                             <ul>
                                 <li><a href="#">My DT Pass 이용 안내</a></li>
-                                <li><a href="#">전자영수증 서비스 점검 안내(6/30, 00시~04시)</a></li>
+                                <li><a href="#">전자영수증 서비스 점검 안내(6/30···</a></li>
                                 <li><a href="#">시스템 개선 및 점검 안내</a></li>
-                                <li><a href="#">홈페이지 이용약관 / 스타벅스 카드 이용약관 개정 안내[정정 안내]</a></li>
+                                <li><a href="#">홈페이지 이용약관 / 스타벅스 카드···</a></li>
                                 <li><a href="#">스타벅스 카드 이용약관 개정 안내</a></li>
                             </ul>
                         </dd>
                     </dl> <!-- notice-flexbox -->
-                    <a href="#"><img src="./image/btn_notice_plus.png" alt="plus btn"></a>
+                    <a href="#" class="plus-btn"><img src="./image/btn_notice_plus.png" alt="plus btn"></a>
                 </div> <!-- notice-plus-flexbox -->
     
                 <div class="promotion-flexbox">
@@ -389,12 +385,12 @@
                             <br>
                             <strong>스타벅스 회원이 아니세요?</strong> <br class="mobile-br"> <br class="pc-br">가입을 통해 리워드 혜택을 즐기세요.
                         </p>
-                    </div>
+                    </div> <!-- info-txt -->
                     <div class="login-signin-btn">
                         <a href="#" class="signin">회원가입</a>
                         <a href="#" class="login">로그인</a>
                     </div>
-                </div> 
+                </div> <!-- info --> 
                 <hr>
                 <div class="gift">
                     <div class="gift-txt">
@@ -407,55 +403,63 @@
                     <div class="gift-btn">
                         <a href="#">e-Gift Card 선물하기</a>
                     </div>
-                </div>
+                </div> <!-- gift -->
             </div> <!-- info-gift -->
         </section> <!-- rewards-wrap -->
 
         <section class="peru-wrap">
             <div class="peru-image-txt">
                 <div class="peru-image">
-                    <img src="./image/2022_Summer1_ph2_bean_bean.png" alt="노란 음료-pc">
-                    <img src="./image/m_2022_Summer1_ph2_bean_bean.png" alt="노란 음료-m">
+                    <img src="./image/2022_Summer1_ph2_bean_bean.png" alt="노란 음료-pc" class="pc-peru">
+                    <img src="./image/m_2022_Summer1_ph2_bean_bean.png" alt="노란 음료-m" class="m-peru">
                 </div>
-                <div class="peru-txt">
-                    <img src="./image/2022_Summer1_ph2_bean_text.png" alt="txt-pc">
-                    <img src="./image/m_2022_Summer1_ph2_bean_text.png" alt="txt-m">
 
-                    <div class="button">
-                        <a href="#">자세히 보기</a>
-                    </div>
+                <div class="peru-txt">
+                    <img src="./image/2022_Summer1_ph2_bean_text.png" alt="txt-pc" class="txt-pc">
+                    <img src="./image/m_2022_Summer1_ph2_bean_text.png" alt="txt-m" class="txt-m">
+
+                </div>
+                <div class="button">
+                    <a href="#">자세히 보기</a>
                 </div>
             </div> <!-- peru-image-txt -->
         </section> <!-- peru-wrap -->
 
         <section class="indonesia-wrap">
-            <div class="indonesia-txt-pc">
-                <img src="./image/reserve_2022_indonesia_title.png" alt="txt-pc">
+            <div class="indonesia-m">
+                <img src="./image/m_reserve_2022_indonesia_visual.jpg" alt="mobile-indonesia">
                 <div class="button">
                     <a href="#">자세히 보기</a>
                 </div>
             </div>
-            <div class="indonesia-img-pc">
-                <img src="./image/reserve_2022_indonesia_visual3.png" alt="image-pc">
-            </div>
-
-            <div class="indonesia-m">
-                <img src="./image/m_reserve_2022_indonesia_visual.jpg" alt="image-m">
+            <div class="indonesia-pc">
+                <div class="indonesia-txt-pc">
+                    <img src="./image/reserve_2022_indonesia_title.png" alt="txt-pc">
+                    <div class="button">
+                        <a href="#">자세히 보기</a>
+                    </div>
+                </div>
+                <div class="indonesia-img-pc">
+                    <img src="./image/reserve_2022_indonesia_visual3.png" alt="image-pc">
+                </div>
             </div>
         </section> <!-- indonesia-wrap -->
 
         <section class="pick-wrap">
+            <div class="pick-image">
+                <img src="./image/2022_Summer1_ph2_pick_img.png" alt="pick image">
+            </div>
             <div class="pick-txt">
                 <h1>PICK YOUR <span>FAVORITE</span></h1>
                 <h2>다양한 메뉴를<br> 스타벅스에서 즐겨보세요.</h2>
-                <p>스타벅스만의 특별함을 경험할 수 있는 최상의 선택 <strong>음료</strong>,<br> 스타벅스 커피와 완벽한 어울림을 자랑하는 <strong>푸드</strong>,<br> 다양한 시도와 디자인으로 가치를 더하는 <strong>상품</strong>,<br> 소중한 사람에게 마음을 전하는 가장 좋은 방법 <strong>스타벅스 카드</strong></p>
+                <p>
+                    스타벅스만의 특별함을 경험할 수 있는 최상의 선택 <strong>음료</strong>,<br> 스타벅스 커피와 완벽한 어울림을 자랑하는 <strong>푸드</strong>,<br> 다양한 시도와 디자인으로 가치를 더하는 <strong>상품</strong>,<br> 소중한 사람에게 마음을 전하는 가장 좋은 방법 <br class="m"><strong>스타벅스 카드</strong>
+                </p>
                 <div class="button">
                     <a href="#">자세히 보기</a>
                 </div>
             </div>
-            <div class="pick-image">
-                <img src="./image/2022_Summer1_ph2_pick_img.png" alt="pick image">
-            </div>
+           
         </section> <!-- pick-wrap -->
 
         <section class="reserve-wrap">
